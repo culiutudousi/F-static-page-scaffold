@@ -21,7 +21,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px 0 20px;
+  padding: 0 300px 0 300px;
+}
+
+section {
+  padding: 0 300px 0 300px;
 }
 
 .left-container {
@@ -35,6 +39,40 @@ header {
   padding: 3px 10px 3px 10px;
   margin-left: 10px;
   border-radius: 2px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  padding: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(175, 189, 190);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card p {
+  color: #101010;
+}
+
+.card span {
+  background-color: rgb(238, 252, 247);
+  padding: 5px 10px 5px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(172, 172, 172);
+  border-radius: 2px;
+  margin-top: 80px;
 }
 
 ul {
