@@ -5,12 +5,36 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
   font-size: 16px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+.left-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register-button {
+  background-color: #42b72a;
+  padding: 3px 10px 3px 10px;
+  margin-left: 10px;
+  border-radius: 2px;
 }
 
 ul {
